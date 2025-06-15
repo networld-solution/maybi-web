@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/headline copy</title>
+    <g id="icon/headline-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+        <path d="M7.5,4 C4.462435,4 2,6.46245 2,9.5 C2,15 8.5,20 12,21.1631 C15.5,20 22,15 22,9.5 C22,6.46245 19.53755,4 16.5,4 C14.63985,4 12.99535,4.92345 12,6.3369 C11.00465,4.92345 9.36015,4 7.5,4 Z" id="Path" stroke="#4C4C4C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+</svg>

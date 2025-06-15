@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/headline copy 26</title>
+    <defs>
+        <path d="M14.2317638,5.13054772 L10.1355093,4.53341164 L8.30467147,0.821636168 C7.97663467,0.160020601 7.02616907,0.151610233 6.69532853,0.821636168 L4.86449066,4.53341164 L0.768236249,5.13054772 C0.0336581143,5.23707904 -0.260733886,6.14259526 0.271975448,6.66123458 L3.23552159,9.54879405 L2.53458825,13.6278222 C2.40842025,14.3651311 3.18505439,14.9174119 3.83552052,14.5725868 L7.5,12.6466127 L11.1644795,14.5725868 C11.8149456,14.9146084 12.5915797,14.3651311 12.4654117,13.6278222 L11.7644784,9.54879405 L14.7280246,6.66123458 C15.2607339,6.14259526 14.9663419,5.23707904 14.2317638,5.13054772 L14.2317638,5.13054772 Z M10.3205557,9.07781347 L10.9850405,12.9577963 L7.5,11.1271397 L4.01495946,12.9577963 L4.67944426,9.07781347 L1.85888852,6.3304268 L5.75607786,5.76412873 L7.5,2.23177443 L9.24392214,5.76412873 L13.1411115,6.3304268 L10.3205557,9.07781347 Z" id="path-1"></path>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Product-Detail" transform="translate(-1049.000000, -306.000000)">
+            <g id="Group-60" transform="translate(0.000000, 182.000000)">
+                <g id="Group-5" transform="translate(969.000000, 124.000000)">
+                    <g id="icon/headline-copy-26" transform="translate(80.000000, 0.000000)">
+                        <rect id="Rectangle" fill-opacity="0.01" fill="#ECAD51" fill-rule="nonzero" x="0" y="0" width="20" height="20"></rect>
+                        <g id="icon/headline-copy-23" transform="translate(2.500000, 2.500000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#ECAD51" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g id="Group" mask="url(#mask-2)" fill="#ECAD51">
+                                <g id="Color">
+                                    <rect id="Purple" x="0" y="0" width="15" height="15"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

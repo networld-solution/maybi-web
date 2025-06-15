@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/headline</title>
+    <g id="icon/headline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+        <path d="M10.5,19 C15.1944,19 19,15.1944 19,10.5 C19,5.8056 15.1944,2 10.5,2 C5.8056,2 2,5.8056 2,10.5 C2,15.1944 5.8056,19 10.5,19 Z" id="Path" stroke="#4C4C4C" stroke-width="1.5" stroke-linejoin="round"></path>
+        <path d="M13.3284,7.17155 C12.60455,6.4477 11.60455,6 10.5,6 C9.39545,6 8.39545,6.4477 7.67155,7.17155" id="Path" stroke="#4C4C4C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <line x1="16.6109" y1="16.6109" x2="20.85355" y2="20.85355" id="Path" stroke="#4C4C4C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+    </g>
+</svg>

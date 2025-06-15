@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/cart</title>
+    <g id="icon/cart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M4.637965,8.4266 C4.67683,7.7659 5.22395,7.25 5.8858,7.25 L18.1142,7.25 C18.77605,7.25 19.32315,7.7659 19.36205,8.4266 L20.12675,21.4266 C20.16895,22.14455 19.5981,22.75 18.8789,22.75 L5.1211,22.75 C4.40189,22.75 3.83103,22.14455 3.87326,21.4266 L4.637965,8.4266 Z" id="Path" stroke="#000000" stroke-width="1.5"></path>
+        <path d="M15.5,10.5 C15.5,12.433 13.933,14 12,14 C10.067,14 8.5,12.433 8.5,10.5" id="Path" stroke="#000000" stroke-width="1.5" stroke-linecap="round"></path>
+        <path d="M15.5,7 L15.5,4.642855 C15.5,2.907105 13.933,1.5 12,1.5 C10.067,1.5 8.5,2.907105 8.5,4.642855 L8.5,7" id="Path" stroke="#000000" stroke-width="1.5" stroke-linecap="round"></path>
+    </g>
+</svg>
