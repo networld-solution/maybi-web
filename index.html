@@ -30,11 +30,25 @@
           </a>
         </div>
         <div class="header-top-right">
-          <div class="navbar-search c-default">
-            <svg class="navbar-search__icon" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <use xlink:href="#svg-search" fill="currentColor"></use>
-            </svg>
+          <div class="header-top-right__search">
+            <a class="header-top-righ_item">
+              <span>Tìm kiếm</span> <img class="header-top-righ_icon" src="img/icons/search.svg" alt="search">
+            </a>
           </div>
+          <div class="header-top-right__items">
+            <a class="header-top-righ_item">
+              <span>Giỏ hàng (0)</span> <img class="header-top-righ_icon" src="img/icons/cart.svg" alt="cart">
+            </a>
+            <a class="header-top-righ_item">
+              <span>Tài khoản</span> <img class="header-top-righ_icon" src="img/icons/account.svg" alt="cart">
+            </a>
+
+            <a class="header-top-righ_item global">
+              <img class="header-top-righ_icon" src="img/icons/global.svg" alt="cart">
+              <img class="header-top-righ_icon" src="img/icons/headphone.svg" alt="cart">
+            </a>
+          </div>
+
         </div>
 
       </div>
@@ -58,12 +72,13 @@
                   <div class="card">
                     <div class="card__body">
                       <ul class="card__list">
-                        <li class="card__item">
-                          <a href="#" title="">
-                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
-                            <span class="card__text">Category sub menu - title 1</span>
+                        <li class="card__item accordion">
+                          <a class="accordion-item" href="#" title="">
+                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="cate-menu-1" />
+                            <span class="card__text">Category sub 1</span>
+                            <img class="accordion_icon" src="img/icons/accordionIcon.svg" alt="accordionIcon" />
                           </a>
-                          <ul class="accordion-menu card__sub-list">
+                          <ul class="card__sub-list">
                             <li><a>Tất cả </a></li>
                             <li><a>Áo chống nắng </a></li>
                             <li><a>Áo chống nắng </a></li>
@@ -72,17 +87,20 @@
                           </ul>
                         </li>
 
-                        <li class="card__item">
-                          <a href="#" title="">
+                        <li class="card__item accordion">
+                          <a class="accordion-item" href="#" title="">
                             <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
                             <span class="card__text">Category sub menu - title 2</span>
+                            <img class="accordion_icon" src="img/icons/accordionIcon.svg" alt="accordionIcon" />
                           </a>
-                          <ul class="accordion-menu card__sub-list">
-                            <li><a>Tất cả </a></li>
-                            <li><a>Áo chống nắng </a></li>
-                            <li><a>Áo chống nắng </a></li>
-                            <li><a>Áo gió </a></li>
-                            <li><a>Áo phao nam </a></li>
+
+
+                          <ul class="card__sub-list">
+                            <li><a>Tất cả 2 </a></li>
+                            <li><a>Áo chống nắng 2 </a></li>
+                            <li><a>Áo chống nắng 2 </a></li>
+                            <li><a>Áo gió 2</a></li>
+                            <li><a>Áo phao nam 2</a></li>
                           </ul>
                         </li>
 
@@ -140,11 +158,10 @@
                             <span class="card__text">Category sub menu - title</span>
                           </a>
                         </li>
-                        
+
                       </ul>
 
                     </div>
-
                   </div>
                 </div>
                 <div class="menu-category__item">
@@ -152,6 +169,82 @@
                   <div class="card">
                     <div class="card__body">
                       <ul class="card__list">
+                        <li class="card__item accordion">
+                          <a class="accordion-item" href="#" title="">
+                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
+                            <span class="card__text">Category sub menu - title 1</span>
+                          </a>
+                          <ul class="card__sub-list">
+                            <li><a>Tất cả </a></li>
+                            <li><a>Áo chống nắng </a></li>
+                            <li><a>Áo chống nắng </a></li>
+                            <li><a>Áo gió </a></li>
+                            <li><a>Áo phao nam </a></li>
+                          </ul>
+                        </li>
+
+                        <li class="card__item accordion">
+                          <a class="accordion-item" href="#" title="">
+                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
+                            <span class="card__text">Category sub menu - title 2</span>
+                          </a>
+                          <ul class="card__sub-list">
+                            <li><a>Tất cả 2 </a></li>
+                            <li><a>Áo chống nắng 2 </a></li>
+                            <li><a>Áo chống nắng 2 </a></li>
+                            <li><a>Áo gió 2</a></li>
+                            <li><a>Áo phao nam 2</a></li>
+                          </ul>
+                        </li>
+
+                        <li class="card__item">
+                          <a href="#" title="">
+                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
+                            <span class="card__text">Category sub menu - title 3</span>
+                          </a>
+                        </li>
+                        <li class="card__item">
+                          <a href="#" title="">
+                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
+                            <span class="card__text">Category sub menu - title</span>
+                          </a>
+                        </li>
+                        <li class="card__item">
+                          <a href="#" title="">
+                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
+                            <span class="card__text">Category sub menu - title</span>
+                          </a>
+                        </li>
+                        <li class="card__item">
+                          <a href="#" title="">
+                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
+                            <span class="card__text">Category sub menu - title</span>
+                          </a>
+                        </li>
+                        <li class="card__item">
+                          <a href="#" title="">
+                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
+                            <span class="card__text">Category sub menu - title</span>
+                          </a>
+                        </li>
+                        <li class="card__item">
+                          <a href="#" title="">
+                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
+                            <span class="card__text">Category sub menu - title</span>
+                          </a>
+                        </li>
+                        <li class="card__item">
+                          <a href="#" title="">
+                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
+                            <span class="card__text">Category sub menu - title</span>
+                          </a>
+                        </li>
+                        <li class="card__item">
+                          <a href="#" title="">
+                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
+                            <span class="card__text">Category sub menu - title</span>
+                          </a>
+                        </li>
                         <li class="card__item">
                           <a href="#" title="">
                             <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
@@ -159,31 +252,6 @@
                           </a>
                         </li>
 
-                        <li class="card__item">
-                          <a href="#" title="">
-                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
-                            <span class="card__text">Category sub menu - title</span>
-                          </a>
-                        </li>
-                        <li class="card__item">
-                          <a href="#" title="">
-                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
-                            <span class="card__text">Category sub menu - title</span>
-                          </a>
-                        </li>
-                        <li class="card__item">
-                          <a href="#" title="">
-                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
-                            <span class="card__text">Category sub menu - title</span>
-                          </a>
-                        </li>
-                        <li class="card__item">
-                          <a href="#" title="">
-                            <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
-                            <span class="card__text">Category sub menu - title</span>
-                          </a>
-                        </li>
-                        
                       </ul>
 
                     </div>
@@ -227,7 +295,7 @@
                             <span class="card__text">Category sub menu - title</span>
                           </a>
                         </li>
-                        
+
                       </ul>
 
                     </div>
@@ -247,8 +315,8 @@
                           </div>
                         </div>
                       </div>
-                      
-                      
+
+
 
                       <div class="card__item">
                         <h3 class="card__text">YODY Sport Nhẹ Tênh</h3>
@@ -263,7 +331,7 @@
                           <img class="cover-img" src="img/menu-gallery-1.webp" alt="welcom to hanoi center" />
                         </div>
                       </div>
-                      
+
 
                       <div class="card__item">
                         <h3 class="card__text">YODY Sport Nhẹ Tênh</h3>
@@ -271,7 +339,7 @@
                           <img class="cover-img" src="img/menu-gallery-2.webp" alt="welcom to hanoi center" />
                         </div>
                       </div>
-                      
+
                     </div>
                   </div>
                 </div>
@@ -299,18 +367,17 @@
               </li>
             </ul>
           </li>
+
           <li class="menus__item">
-            <a class="menus__item__link" href="#" title="Ưu đãi">Ưu đãi</a>
+            <a class="menus__item__link c-default" href="#" title="Đầm">HÀNG MỚI VỀ</a>
           </li>
           <li class="menus__item">
-            <a class="menus__item__link c-default" href="#" title="Đầm">Đầm</a>
+            <a class="menus__item__link" href="#" title="Ưu đãi">ƯU ĐÃI</a>
           </li>
           <li class="menus__item">
-            <a class="menus__item__link c-default" href="#" title="Áo">Áo</a>
+            <a class="menus__item__link c-default" href="#" title="Áo">THƯƠNG HIỆU</a>
           </li>
-          <li class="menus__item">
-            <a class="menus__item__link" href="#" title="Quần - Chân váy">Quần - Chân váy</a>
-          </li>
+
         </ul>
 
       </nav>
@@ -333,10 +400,207 @@
       </div>
     </section>
     <section class="promotion">
-      <div class="promotion-container">
-        <img class="cover-img" src="img/saleup.png" alt="banner-1" />
+      <div class="promotion__container">
+        <div class="promotion__item">
+          <h2>KHUYẾN MÃI 10%</h2>
+          <p>CHO ĐƠN HÀNG TỪ 500.000Đ</p>
+        </div>
+        <div class="promotion__item">
+          <div class="promotion__img">
+            <img class="cover-img" src="img/voucher-homepage.png" alt="Voucher homepage">
+          </div>
+        </div>
+        <div class="promotion__item">
+          <h2>KHUYẾN MÃI 20%</h2>
+          <p>CHO ĐƠN HÀNG TỪ 1.000.000Đ</p>
+        </div>
       </div>
     </section>
+
+    <section class="home-category">
+      <div class="home__container">
+        <div class="home__header">
+          <div class="home__title">
+            <h3>MUA THEO THỂ LOẠI</h3>
+          </div>
+          <div class="home__pagination">
+            <div class="home__prev">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z">
+                </path>
+              </svg>
+            </div>
+            <div class="home__next">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="home__content">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper__img">
+                <img class="cover-img" src="img/home-cate1.png" alt="Ao so mi" />
+              </div>
+              <h3><a href="#">Áo sơ mi</a></h3>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper__img">
+                <img class="cover-img" src="img/home-cate1.png" alt="Ao so mi" />
+              </div>
+              <h3><a href="#">Áo sơ mi</a></h3>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper__img">
+                <img class="cover-img" src="img/home-cate1.png" alt="Ao so mi" />
+              </div>
+              <h3><a href="#">Áo sơ mi</a></h3>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper__img">
+                <img class="cover-img" src="img/home-cate1.png" alt="Ao so mi" />
+              </div>
+              <h3><a href="#">Áo sơ mi</a></h3>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper__img">
+                <img class="cover-img" src="img/home-cate1.png" alt="Ao so mi" />
+              </div>
+              <h3><a href="#">Áo sơ mi</a></h3>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper__img">
+                <img class="cover-img" src="img/home-cate1.png" alt="Ao so mi" />
+              </div>
+              <h3><a href="#">Áo sơ mi</a></h3>
+            </div>
+          </div>
+        </div>
+        <div class="home__botton">
+          <a class="button--secondary" href="#" title="">Xem tất cả</a>
+        </div>
+      </div>  
+    </section>
+
+
+    <section class="home-flashsale">
+      <div class="home__container">
+        <div class="home__header flashsale__header">
+          <!-- <div class="home__countdown">
+            <h3 class="title">FLASH SALE</h3>
+            <div class="countdown__content">
+              <div class="countdown__item">06</div> :
+              <div class="countdown__item">23</div> :
+              <div class="countdown__item">55</div> :
+            </div>
+          </div> -->
+          
+          <div class="home__pagination">
+            <div class="home__prev">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z">
+                </path>
+              </svg>
+            </div>
+            <div class="home__next">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="home__content">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide__flashsale">
+              <div class="swiper__img">
+                <span class="sale">-20%</span>
+                <img class="cover-img" src="img/flashsale1.png" alt="Ao so mi" />
+                <img class="heart" src="img/icons/heart.svg" alt="flashsale">
+              </div>
+              <div class="flashsale__price">
+                <p class="discount">5.000.000 Đ</p>
+                <p>6.500.000Đ</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide__flashsale">
+              <div class="swiper__img">
+                <span class="sale">-20%</span>
+                <img class="cover-img" src="img/flashsale2.png" alt="Ao so mi" />
+                <img class="heart" src="img/icons/heart.svg" alt="flashsale">
+              </div>
+              <div class="flashsale__price">
+                <p class="discount">5.000.000 Đ</p>
+                <p>6.500.000Đ</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide__flashsale">
+              <div class="swiper__img">
+                <span class="sale">-20%</span>
+                <img class="cover-img" src="img/flashsale3.png" alt="Ao so mi" />
+                <img class="heart" src="img/icons/heart.svg" alt="flashsale">
+              </div>
+              <div class="flashsale__price">
+                <p class="discount">5.000.000 Đ</p>
+                <p>6.500.000Đ</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide__flashsale">
+              <div class="swiper__img">
+                <span class="sale">-20%</span>
+                <img class="cover-img" src="img/flashsale4.png" alt="Ao so mi" />
+                <img class="heart" src="img/icons/heart.svg" alt="flashsale">
+              </div>
+              <div class="flashsale__price">
+                <p class="discount">5.000.000 Đ</p>
+                <p>6.500.000Đ</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide__flashsale">
+              <div class="swiper__img">
+                <span class="sale">-20%</span>
+                <img class="cover-img" src="img/flashsale5.png" alt="Ao so mi" />
+                <img class="heart" src="img/icons/heart.svg" alt="flashsale">
+              </div>
+              <div class="flashsale__price">
+                <p class="discount">5.000.000 Đ</p>
+                <p>6.500.000Đ</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide__flashsale">
+              <div class="swiper__img">
+                <span class="sale">-20%</span>
+                <img class="cover-img" src="img/flashsale6.png" alt="Ao so mi" />
+                <img class="heart" src="img/icons/heart.svg" alt="flashsale">
+              </div>
+              <div class="flashsale__price">
+                <p class="discount">5.000.000 Đ</p>
+                <p>6.500.000Đ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home__botton">
+          <a class="button--secondary" href="#" title="">Xem tất cả</a>
+        </div>
+      </div>  
+    </section>
+
+
 
   </main>
   <footer class="footer">
@@ -358,7 +622,27 @@
         clickable: true,
       },
     });
+
+    var swiper = new Swiper(".home__content", {
+      loop: true,
+      spaceBetween: 18,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: true,
+      },
+      navigation: {
+        nextEl: ".home__next",
+        prevEl: ".home__prev",
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 5,
+        },
+      },
+    });
   </script>
+
+  <script src="./js/index.js"></script>
 
 </body>
 

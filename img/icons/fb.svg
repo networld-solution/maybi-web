@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/headline copy 24</title>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Final" transform="translate(-169.000000, -8379.000000)" fill="#000000">
+            <g id="Group-75" transform="translate(0.000000, 8104.000000)">
+                <g id="Text/body1-BOLD-Copy-3" transform="translate(169.000000, 172.000000)">
+                    <g id="icon/headline-copy-24" transform="translate(0.000000, 103.000000)">
+                        <rect id="Rectangle" fill-opacity="0.01" fill-rule="nonzero" x="0" y="0" width="28" height="28"></rect>
+                        <path d="M14,0.1435 C6.2685,0.1435 0,6.412 0,14.1435 C0,21.1615833 5.17008333,26.95875 11.9058333,27.97025 L11.9058333,17.8529167 L8.44258333,17.8529167 L8.44258333,14.17325 L11.9058333,14.17325 L11.9058333,11.7255833 C11.9058333,7.66966667 13.8815833,5.89225 17.2515,5.89225 C18.865,5.89225 19.7195833,6.01125 20.1226667,6.0655 L20.1226667,9.27616667 L17.82375,9.27616667 C16.3945833,9.27616667 15.8935,10.6341667 15.8935,12.1630833 L15.8935,14.17325 L20.0865,14.17325 L19.5189167,17.8529167 L15.8935,17.8529167 L15.8935,28 C22.72725,27.0725 28,21.2298333 28,14.1435 C28,6.412 21.7315,0.1435 14,0.1435 Z" id="Fill-1"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
