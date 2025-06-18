@@ -9,7 +9,6 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/default.css">
-  <link rel="stylesheet" href="css/icons.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/reponsive.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -108,6 +107,7 @@
                           <a href="#" title="">
                             <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
                             <span class="card__text">Category sub menu - title 3</span>
+                            
                           </a>
                         </li>
                         <li class="card__item">
@@ -173,6 +173,7 @@
                           <a class="accordion-item" href="#" title="">
                             <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
                             <span class="card__text">Category sub menu - title 1</span>
+                            <img class="accordion_icon" src="img/icons/accordionIcon.svg" alt="accordionIcon" />
                           </a>
                           <ul class="card__sub-list">
                             <li><a>Tất cả </a></li>
@@ -187,6 +188,7 @@
                           <a class="accordion-item" href="#" title="">
                             <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
                             <span class="card__text">Category sub menu - title 2</span>
+                            <img class="accordion_icon" src="img/icons/accordionIcon.svg" alt="accordionIcon" />
                           </a>
                           <ul class="card__sub-list">
                             <li><a>Tất cả 2 </a></li>
@@ -201,6 +203,7 @@
                           <a href="#" title="">
                             <img class="menu-category__img" src="img/cate-menu-1.webp" alt="welcom to hanoi center" />
                             <span class="card__text">Category sub menu - title 3</span>
+                            
                           </a>
                         </li>
                         <li class="card__item">
@@ -304,7 +307,7 @@
                 </div>
 
                 <div class="menu-category__item">
-                  <div class="card__title"><a href="#" title="">Category menu 4</a></div>
+                  <div class="menu-category__title"><a href="#" title="">Category menu 4</a></div>
                   <div class="card">
                     <div class="card__body">
                       <div class="card__list">
@@ -351,7 +354,7 @@
           <li class="menus__item">
             <a class="menus__item__link c-default" href="#" title="Xu hướng tìm kiếm">Xu hướng tìm kiếm</a>
           </li>
-          <li class="menus__item menus-sub">
+          <!-- <li class="menus__item menus-sub">
             <a class="menus__item__link menus-sub__link" href="#" title="Hàng mới về">
               <span>Hàng mới về</span>
             </a>
@@ -366,7 +369,7 @@
                 <a href="#" title="">Sub menu 3</a>
               </li>
             </ul>
-          </li>
+          </li> -->
 
           <li class="menus__item">
             <a class="menus__item__link c-default" href="#" title="Đầm">HÀNG MỚI VỀ</a>
@@ -417,21 +420,21 @@
       </div>
     </section>
 
-    <section class="home-category">
-      <div class="home__container">
-        <div class="home__header">
-          <div class="home__title">
+    <section class="home-cate">
+      <div class="cate__container">
+        <div class="cate__header">
+          <div class="cate__title">
             <h3>MUA THEO THỂ LOẠI</h3>
           </div>
-          <div class="home__pagination">
-            <div class="home__prev">
+          <div class="cate__pagination">
+            <div class="cate__prev">
               <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                   d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z">
                 </path>
               </svg>
             </div>
-            <div class="home__next">
+            <div class="cate__next">
               <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                   d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
@@ -439,7 +442,7 @@
             </div>
           </div>
         </div>
-        <div class="home__content">
+        <div class="cate__content">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="swiper__img">
@@ -484,34 +487,36 @@
             </div>
           </div>
         </div>
-        <div class="home__botton">
+        <div class="cate__botton">
           <a class="button--secondary" href="#" title="">Xem tất cả</a>
         </div>
-      </div>  
+      </div>
     </section>
 
 
     <section class="home-flashsale">
-      <div class="home__container">
-        <div class="home__header flashsale__header">
-          <!-- <div class="home__countdown">
-            <h3 class="title">FLASH SALE</h3>
-            <div class="countdown__content">
-              <div class="countdown__item">06</div> :
-              <div class="countdown__item">23</div> :
-              <div class="countdown__item">55</div> :
+      <div class="flashsale__container">
+        <div class="flashsale__header">
+          <div class="flashsale__countdown">
+            <div class="countdown__container">
+              <h3 class="countdown__title">FLASH SALE</h3>
+              <div class="countdown__content">
+                <div class="countdown__item">06</div> :
+                <div class="countdown__item">23</div> :
+                <div class="countdown__item">55</div>
+              </div>
             </div>
-          </div> -->
-          
-          <div class="home__pagination">
-            <div class="home__prev">
+          </div>
+
+          <div class="flashsale__pagination">
+            <div class="flashsale__prev prev-icon">
               <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" class="bi bi-arrow-left" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                   d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z">
                 </path>
               </svg>
             </div>
-            <div class="home__next">
+            <div class="flashsale__next next-icon">
               <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" class="bi bi-arrow-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                   d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
@@ -519,9 +524,9 @@
             </div>
           </div>
         </div>
-        <div class="home__content">
+        <div class="flashsale__content">
           <div class="swiper-wrapper">
-            <div class="swiper-slide swiper-slide__flashsale">
+            <div class="swiper-slide">
               <div class="swiper__img">
                 <span class="sale">-20%</span>
                 <img class="cover-img" src="img/flashsale1.png" alt="Ao so mi" />
@@ -533,7 +538,7 @@
               </div>
             </div>
 
-            <div class="swiper-slide swiper-slide__flashsale">
+            <div class="swiper-slide">
               <div class="swiper__img">
                 <span class="sale">-20%</span>
                 <img class="cover-img" src="img/flashsale2.png" alt="Ao so mi" />
@@ -545,7 +550,31 @@
               </div>
             </div>
 
-            <div class="swiper-slide swiper-slide__flashsale">
+            <div class="swiper-slide">
+              <div class="swiper__img">
+                <span class="sale">-20%</span>
+                <img class="cover-img" src="img/flashsale2.png" alt="Ao so mi" />
+                <img class="heart" src="img/icons/heart.svg" alt="flashsale">
+              </div>
+              <div class="flashsale__price">
+                <p class="discount">5.000.000 Đ</p>
+                <p>6.500.000Đ</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper__img">
+                <span class="sale">-20%</span>
+                <img class="cover-img" src="img/flashsale2.png" alt="Ao so mi" />
+                <img class="heart" src="img/icons/heart.svg" alt="flashsale">
+              </div>
+              <div class="flashsale__price">
+                <p class="discount">5.000.000 Đ</p>
+                <p>6.500.000Đ</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
               <div class="swiper__img">
                 <span class="sale">-20%</span>
                 <img class="cover-img" src="img/flashsale3.png" alt="Ao so mi" />
@@ -557,7 +586,7 @@
               </div>
             </div>
 
-            <div class="swiper-slide swiper-slide__flashsale">
+            <div class="swiper-slide">
               <div class="swiper__img">
                 <span class="sale">-20%</span>
                 <img class="cover-img" src="img/flashsale4.png" alt="Ao so mi" />
@@ -569,7 +598,7 @@
               </div>
             </div>
 
-            <div class="swiper-slide swiper-slide__flashsale">
+            <div class="swiper-slide">
               <div class="swiper__img">
                 <span class="sale">-20%</span>
                 <img class="cover-img" src="img/flashsale5.png" alt="Ao so mi" />
@@ -581,7 +610,7 @@
               </div>
             </div>
 
-            <div class="swiper-slide swiper-slide__flashsale">
+            <div class="swiper-slide">
               <div class="swiper__img">
                 <span class="sale">-20%</span>
                 <img class="cover-img" src="img/flashsale6.png" alt="Ao so mi" />
@@ -594,17 +623,279 @@
             </div>
           </div>
         </div>
-        <div class="home__botton">
+        <div class="flashsale__botton">
           <a class="button--secondary" href="#" title="">Xem tất cả</a>
         </div>
-      </div>  
+      </div>
+    </section>
+
+
+
+    <section class="product">
+      <div class="product__container">
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="img/favorite1.png" class="product-card__image" alt="Product 1" />
+            <div class="product-card__body">
+              <h3 class="product-card__title">Sản phẩm 1</h3>
+              <p class="product-card__price">₫250.000</p>
+            </div>
+          </div>
+
+          <!-- Repeat products -->
+          <div class="product-card">
+            <img src="img/favorite2.png" class="product-card__image" alt="Product 2" />
+            <div class="product-card__body">
+              <h3 class="product-card__title">Sản phẩm 2</h3>
+              <p class="product-card__price">₫320.000</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img src="img/favorite3.png" class="product-card__image" alt="Product 3" />
+            <div class="product-card__body">
+              <h3 class="product-card__title">Sản phẩm 3</h3>
+              <p class="product-card__price">₫400.000</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img src="img/favorite4.png" class="product-card__image" alt="Product 4" />
+            <div class="product-card__body">
+              <h3 class="product-card__title">Sản phẩm 4</h3>
+              <p class="product-card__price">₫150.000</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img src="img/favorite2.png" class="product-card__image" alt="Product 2" />
+            <div class="product-card__body">
+              <h3 class="product-card__title">Sản phẩm 2</h3>
+              <p class="product-card__price">₫320.000</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img src="img/favorite3.png" class="product-card__image" alt="Product 3" />
+            <div class="product-card__body">
+              <h3 class="product-card__title">Sản phẩm 3</h3>
+              <p class="product-card__price">₫400.000</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img src="img/favorite4.png" class="product-card__image" alt="Product 4" />
+            <div class="product-card__body">
+              <h3 class="product-card__title">Sản phẩm 4</h3>
+              <p class="product-card__price">₫150.000</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="img/favorite1.png" class="product-card__image" alt="Product 4" />
+            <div class="product-card__body">
+              <h3 class="product-card__title">Sản phẩm 4</h3>
+              <p class="product-card__price">₫150.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="home-brand">
+      <div class="brand__container">
+        <div class="brand__content">      
+          <h2 class="header__title">CÁC THƯƠNG HIỆU</h3>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide__brand">
+              <div class="swiper__img">
+                <img class="cover-img" src="img/brand1.png" alt="brand 1" />
+              </div>
+              <div class="brand__title">
+                <h3>MOTS</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide__brand">
+              <div class="swiper__img">
+                <img class="cover-img" src="img/brand2.png" alt="brand 1" />
+              </div>
+              <div class="brand__title">
+                <h3>MOTS</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide__brand">
+              <div class="swiper__img">
+                <img class="cover-img" src="img/brand3.png" alt="brand 1" />
+              </div>
+              <div class="brand__title">
+                <h3>MOTS</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide__brand">
+              <div class="swiper__img">
+                <img class="cover-img" src="img/brand1.png" alt="brand 1" />
+              </div>
+              <div class="brand__title">
+                <h3>MOTS</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide__brand">
+              <div class="swiper__img">
+                <img class="cover-img" src="img/brand2.png" alt="brand 1" />
+              </div>
+              <div class="brand__title">
+                <h3>MOTS</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide__brand">
+              <div class="swiper__img">
+                <img class="cover-img" src="img/brand3.png" alt="brand 1" />
+              </div>
+              <div class="brand__title">
+                <h3>MOTS</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="brand__next swiper-button-next"></div>
+          <div class="brand__prev swiper-button-prev"></div>
+        </div>
+      </div>
     </section>
 
 
 
   </main>
   <footer class="footer">
-
+    <div class="footer__container">
+        <div class="row ">
+          <div class="col-2">
+            <div class="footer__title">
+              <h3>VỀ MAYBI</h3>
+            </div>
+            <ul>              
+              <li>
+                <a href=""><span>Về chúng tôi</span></a>
+              </li>
+              <li>
+                <a href=""><span>Tiếp thị liên kết</span></a>
+              </li>
+              <li>
+                <a href=""><span>Cơ hội nghề nghiệp</span></a>
+              </li>
+              <li>
+                <a href=""><span>Blogs</span></a>
+              </li>
+              <li>
+                <a href=""><span>Liên hệ</span></a>
+              </li>
+              <li>
+                <a class="facebook" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+                  </svg>
+                </a>
+                <a class="instagram" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <div class="footer__title">
+              <h3>Chính sách</h3>
+            </div>
+            <ul class="footer-lst">
+              <li>
+                <a href=""><span>Chính sách</span></a>
+              </li>
+              <li>
+                <a href=""><span>Chính sách bảo mật</span></a>
+              </li>
+              <li>
+                <a href=""><span>Điều kiện &amp; điều khoản</span></a>
+              </li>
+              <li>
+                <a href=""><span>Cookies</span></a>
+              </li>
+              <li>
+                <a href=""><span>Chính sách đổi trả</span></a>
+              </li>
+              <li>
+                <a href=""><span>Chính sách vận chuyển</span></a>
+              </li>
+              <li>
+                <a href=""><span>Phương thức thanh toán</span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <div class="footer__title">
+              <h3>Chăm sóc khách hàng</h3>
+            </div>
+            <ul class="footer-lst">
+              <li>
+                <a href=""><span>Size Guide</span></a>
+              </li>
+              <li>
+                <a href=""><span>Hướng dẫn đặt hàng</span></a>
+              </li>
+              <li>
+                <a href=""><span>Kiểm tra đơn hàng</span></a>
+              </li>
+              <li>
+                <a href=""><span>Câu hỏi thường gặp</span></a>
+              </li>
+              <li>
+                <a href=""><span>Chương trình điểm thưởng</span></a>
+              </li>
+              <li>
+                <a href=""><span>Thẻ quà tặng</span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <div class="footer__title">
+              <h3>Đăng kí nhận tin mới từ maybi</h3>
+            </div>
+            <div class="footer__submit-email">
+              <div class="submit-email__form">
+                <form target="_blank">
+                  <input type="email" name="" id="email-to-maybi" class="maybi-send-mail__input" placeholder="Nhập email của bạn">
+                  <label class="maybi-send-mail__label" for="email-to-maybi">
+                    <a class="maybi-send-mail__button btn-reset" type="button" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                      </svg>
+                    </a>
+                  </label>
+                </form>
+              </div>
+              <div>
+                <div class="commitment">
+                  <p>
+                    Bằng cách nhấp vào nút ĐĂNG KÝ, bạn đồng ý với
+                    <a href="#"><span>Chính sách bảo mật và Cookie</span></a>
+                    của chúng tôi.
+                  </p>
+                </div>
+                <div class="license">
+                  <img src="img/Bitmap.png" alt="trade-license">
+                  <img src="img/Bitmap.png" alt="trade-license">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
   </footer>
 
 
@@ -623,7 +914,7 @@
       },
     });
 
-    var swiper = new Swiper(".home__content", {
+    var swiper = new Swiper(".cate__content", {
       loop: true,
       spaceBetween: 18,
       autoplay: {
@@ -631,12 +922,48 @@
         disableOnInteraction: true,
       },
       navigation: {
-        nextEl: ".home__next",
-        prevEl: ".home__prev",
+        nextEl: ".cate__next",
+        prevEl: ".cate__prev",
       },
       breakpoints: {
         768: {
           slidesPerView: 5,
+        },
+      },
+    });
+
+    var swiper = new Swiper(".flashsale__content", {
+      loop: true,
+      spaceBetween: 18,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: true,
+      },
+      navigation: {
+        nextEl: ".flashsale__next",
+        prevEl: ".flashsale__prev",
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 6,
+        },
+      },
+    });
+
+
+    var swiper = new Swiper(".brand__content", {      
+      spaceBetween: 18,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 3,
         },
       },
     });
